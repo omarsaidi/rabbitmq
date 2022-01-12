@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/omar/Documents/rabbitmq/Receive/Receive.csproj",
+      "projectUniqueName": "/home/omar/Documents/rabbitmq/hello-world/Receive/Receive.csproj",
       "projectName": "Receive",
-      "projectPath": "/home/omar/Documents/rabbitmq/Receive/Receive.csproj",
+      "projectPath": "/home/omar/Documents/rabbitmq/hello-world/Receive/Receive.csproj",
       "packagesPath": "/home/omar/.nuget/packages/",
-      "outputPath": "/home/omar/Documents/rabbitmq/Receive/obj/",
+      "outputPath": "/home/omar/Documents/rabbitmq/hello-world/Receive/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/omar/.nuget/NuGet/NuGet.Config"

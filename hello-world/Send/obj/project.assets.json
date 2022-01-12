@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/omar/Documents/rabbitmq/Send/Send.csproj",
+      "projectUniqueName": "/home/omar/Documents/rabbitmq/hello-world/Send/Send.csproj",
       "projectName": "Send",
-      "projectPath": "/home/omar/Documents/rabbitmq/Send/Send.csproj",
+      "projectPath": "/home/omar/Documents/rabbitmq/hello-world/Send/Send.csproj",
       "packagesPath": "/home/omar/.nuget/packages/",
-      "outputPath": "/home/omar/Documents/rabbitmq/Send/obj/",
+      "outputPath": "/home/omar/Documents/rabbitmq/hello-world/Send/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/omar/.nuget/NuGet/NuGet.Config"
