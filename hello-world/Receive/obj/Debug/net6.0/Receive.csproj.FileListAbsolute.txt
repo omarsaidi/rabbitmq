@@ -1,0 +1,17 @@
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/Receive
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/Receive.deps.json
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/Receive.runtimeconfig.json
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/Receive.dll
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/ref/Receive.dll
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/Receive.pdb
+/home/omar/Documents/rabbitmq/Receive/bin/Debug/net6.0/RabbitMQ.Client.dll
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.csproj.AssemblyReference.cache
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.GeneratedMSBuildEditorConfig.editorconfig
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.AssemblyInfoInputs.cache
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.AssemblyInfo.cs
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.csproj.CoreCompileInputs.cache
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.csproj.CopyComplete
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.dll
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/ref/Receive.dll
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.pdb
+/home/omar/Documents/rabbitmq/Receive/obj/Debug/net6.0/Receive.genruntimeconfig.cache
