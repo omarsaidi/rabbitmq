@@ -6,17 +6,22 @@ using System.Threading;
 
 class Worker
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
         var factory = new ConnectionFactory() { HostName = "localhost" };
         using (var connection = factory.CreateConnection())
         using (var channel = connection.CreateModel())
         {
             channel.QueueDeclare(queue: "task_queue",
-                                 durable: false,
+                                 durable: true,
                                  exclusive: false,
                                  autoDelete: false,
                                  arguments: null);
+
+            channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+
+            Console.WriteLine(" [*] Waiting for messages.");
+
             var consumer = new EventingBasicConsumer(channel);
             consumer.Received += (sender, ea) =>
             {
@@ -29,11 +34,14 @@ class Worker
 
                 Console.WriteLine(" [x] Done");
 
-                // Note: it is possible to access the channel via
-                //       ((EventingBasicConsumer)sender).Model here
-                channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
+                    // Note: it is possible to access the channel via
+                    //       ((EventingBasicConsumer)sender).Model here
+                    channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
             };
-            channel.BasicConsume(queue: "task_queue", autoAck: false, consumer: consumer);
+            channel.BasicConsume(queue: "task_queue",
+                                 autoAck: false,
+                                 consumer: consumer);
+
             Console.WriteLine(" Press [enter] to exit.");
             Console.ReadLine();
         }
